@@ -1,13 +1,173 @@
-<!-- index.html (中文草稿) -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>$5 信任实验</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$5 Trust Experiment | $5 信任实验</title>
+  <style>
+    :root {
+      --text-color: #333;
+      --bg-color: #fff;
+      --link-color: #0066cc;
+      --border-color: #eee;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background: var(--bg-color);
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .lang-switch {
+      text-align: center;
+      margin-bottom: 2em;
+      font-size: 0.9em;
+    }
+    .section {
+      margin-bottom: 2em;
+      padding-bottom: 1.5em;
+      border-bottom: 1px solid var(--border-color);
+    }
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .note {
+      background: #f9f9f9;
+      padding: 12px;
+      border-left: 4px solid #0066cc;
+      margin: 1.5em 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3em;
+      color: #777;
+      font-size: 0.9em;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #ddd;
+        --bg-color: #121212;
+        --link-color: #66b2ff;
+        --border-color: #333;
+      }
+      .note {
+        background: #1e1e1e;
+        border-left-color: #66b2ff;
+      }
+    }
+  </style>
 </head>
 <body>
+
+<div class="lang-switch">
+  <a href="#zh" onclick="showLang('zh')">中文</a> · 
+  <a href="#en" onclick="showLang('en')">English</a>
+</div>
+
+<!-- 中文版 -->
+<div id="zh-content">
   <h1>$5 信任实验</h1>
-  <p>这是一个社会实验：在不主动推广的情况下，是否会有陌生人自愿支持我的 $5 小目标？</p>
-  <!-- 后续在此编写完整中文内容 -->
+
+  <div class="section">
+    <p>这是一个安静的社会实验：在不主动推广的情况下，是否会有陌生人自愿支持我的 <strong>$5 美元</strong> 小目标？</p>
+    <p>我只筹集 <strong>正好 $5.00</strong>。任何超出部分将 <strong>100% 捐赠</strong> 给公益组织，并公开凭证。</p>
+  </div>
+
+  <div class="section">
+    <h2>为什么是 $5？</h2>
+    <p>作为中国普通公民，我面临现实障碍：</p>
+    <ul>
+      <li>中国实行严格的外汇管制，普通人难以合法持有或使用美元。</li>
+      <li>许多国际服务（如付费应用、工具）仅接受美元支付。</li>
+      <li>我曾通过 Swagbucks 完成有奖调查，辛苦积攒数月美元，却在提现前被永久封号（有邮件为证）。</li>
+    </ul>
+    <p>因此，这 $5 不是乞讨，而是一次<strong>对网络善意的最小测试</strong>。</p>
+  </div>
+
+  <div class="section">
+    <h2>规则与透明度</h2>
+    <ul>
+      <li>✅ 目标：严格收取 <strong>$5.00 USD</strong>。</li>
+      <li>✅ 超额部分将全部捐赠（我曾通过微软积分向公益组织捐款，有截图证明）。</li>
+      <li>✅ PayPal 账户已成功申请，<strong>Ko-fi 因网站故障暂无法注册</strong>（截至 2026 年 6 月）。</li>
+      <li>✅ 每 <strong>72 小时</strong> 截图 PayPal 流水并更新于此页。</li>
+      <li>✅ 达到 $5 后，捐赠链接将立即移除。</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <strong>这不是募捐，不是求助，而是一面镜子：</strong><br>
+    “一个素未谋面的中国人，承诺只拿 $5 —— 你愿意相信吗？”
+  </div>
+
+  <footer>
+    <p>项目地址：<a href="https://github.com/f1683yuge-cyber/social-experiment" target="_blank">GitHub</a></p>
+    <p>© 2026 f1683yuge-cyber · 本项目献给公共领域</p>
+  </footer>
+</div>
+
+<!-- 英文版（默认隐藏） -->
+<div id="en-content" style="display:none;">
+  <h1>The $5 Trust Experiment</h1>
+
+  <div class="section">
+    <p>This is a quiet social experiment: without promotion, will strangers voluntarily support my tiny goal of <strong>$5 USD</strong>?</p>
+    <p>I will keep <strong>exactly $5.00</strong>. Any amount beyond that will be <strong>100% donated</strong> to charity, with proof published.</p>
+  </div>
+
+  <div class="section">
+    <h2>Why $5?</h2>
+    <p>As an ordinary Chinese citizen, I face real barriers:</p>
+    <ul>
+      <li>China enforces strict foreign exchange controls — ordinary people cannot freely hold or use USD.</li>
+      <li>Many international services (apps, tools) only accept USD payments.</li>
+      <li>I once spent months earning dollars via Swagbucks surveys, only to have my account permanently banned right before cashout (email proof available).</li>
+    </ul>
+    <p>Thus, this $5 is not begging — it’s a <strong>minimal test of online goodwill</strong>.</p>
+  </div>
+
+  <div class="section">
+    <h2>Rules & Transparency</h2>
+    <ul>
+      <li>✅ Goal: strictly <strong>$5.00 USD</strong>.</li>
+      <li>✅ Excess funds will be fully donated (I previously donated Microsoft Rewards points to charity; screenshots available).</li>
+      <li>✅ PayPal account is ready. <strong>Ko-fi is currently down and unavailable for registration</strong> (as of June 2026).</li>
+      <li>✅ PayPal balance screenshots will be updated here <strong>every 72 hours</strong>.</li>
+      <li>✅ The donation link will be removed immediately upon reaching $5.</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <strong>This is not a fundraiser — it’s a mirror:</strong><br>
+    “A nameless person from China promises to take only $5 — do you trust them?”
+  </div>
+
+  <footer>
+    <p>Project on <a href="https://github.com/f1683yuge-cyber/social-experiment" target="_blank">GitHub</a></p>
+    <p>© 2026 f1683yuge-cyber · Dedicated to the public domain</p>
+  </footer>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('zh-content').style.display = lang === 'zh' ? 'block' : 'none';
+    document.getElementById('en-content').style.display = lang === 'en' ? 'block' : 'none';
+    localStorage.setItem('preferred-lang', lang);
+  }
+  // 默认语言：根据浏览器或上次选择
+  const savedLang = localStorage.getItem('preferred-lang') || (navigator.language.startsWith('zh') ? 'zh' : 'en');
+  showLang(savedLang);
+</script>
+
 </body>
 </html>

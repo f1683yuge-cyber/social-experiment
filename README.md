@@ -1,58 +1,69 @@
-# social-experiment
-A $5 trust experiment: Can strangers support a micro-goal without promotion?
+# The $100 Trust Experiment  
+*A social experiment: Can strangers collectively fund a $100 micro-goal with $1 each — without promotion?*
 
-The $5 Trust Experiment
-========================
+**Author**: f1683yuge-cyber (a developer from China)  
+**Goal**: To collect exactly **$100.00 USD** — no more, no less.  
+**Status**: Active (as of June 2024)
 
-Author: f1683yuge-cyber (a regular person from China)
-Goal: To collect exactly $5.00 USD — no more, no less.
-Status: Active (as of June 2024)
+---
 
-Background: Why $5?
--------------------
-As an ordinary Chinese citizen, I face real barriers to accessing U.S. dollars:
-- China enforces strict foreign exchange controls. Ordinary individuals cannot freely hold or use USD.
-- Most international digital services (apps, tools, subscriptions) still require USD payments.
-- I once spent months completing paid surveys on Swagbucks to earn just a few dollars — only to have my account permanently banned right before cashout (email proof available).
+## 🎯 Why $100? Why $1?
+As an ordinary Chinese citizen, I face real barriers to using U.S. dollars:
 
-This $5 isn’t about money. It’s symbolic:
-- It represents the smallest unit of cross-border trust.
-- It tests whether honesty can bridge systemic gaps.
+- **Strict foreign exchange controls**: Individuals cannot freely hold or spend USD.
+- **Global digital services** (apps, tools, APIs) often **only accept USD**.
+- I once spent **months earning $5 via Swagbucks surveys**, only to be **permanently banned before cashout** (email proof available).
 
-Purpose
--------
-This is a quiet social experiment — not a fundraiser, not begging.
-I ask only: if you believe in passive goodwill, would you send 1¢, 5¢, or $1?
-No rewards. No follow-up. Just a silent vote for integrity.
+So this isn’t about money. It’s a **symbolic test**:
 
-Rules (Fixed & Public)
-----------------------
-1. I will keep **exactly $5.00 USD**. Not $5.01.
-2. Any amount received beyond $5 (e.g., due to payment processing delays) will be **100% donated** to a verified nonprofit.
-   → I have prior experience donating via Microsoft Rewards to charity (screenshots available).
-3. My PayPal balance will be screenshot and published here **every 3 days** for full transparency.
-4. The donation link will be **permanently removed** the moment $5 is reached.
+> **Can 100 strangers each send $1 — not out of pity, but as a vote for trust?**
 
-Transparency & Proof
---------------------
-- GitHub Repository: https://github.com/f1683yuge-cyber/social-experiment
-- Live Page: https://f1683yuge-cyber.github.io/social-experiment/
-- Evidence includes:
-   • Swagbucks ban email (redacted)
-   • Past Microsoft charity donation records
-   • Regular PayPal balance screenshots (updated every 72 hours)
+The $1 amount is intentional: small enough to be painless, meaningful enough to count.
 
-A Personal Note
----------------
-I am not asking for help.  
-I am offering a mirror:  
-> Can a stranger, halfway across the world, trust a nameless person from China who promises “only $5”?
+---
 
-If this page reaches you, thank you for witnessing the experiment.
+## 🧪 Purpose
+This is **not a fundraiser**. It’s a quiet social experiment in **micro-trust**.
+
+I ask only:  
+> *If you believe that honesty can exist between strangers online… would you contribute $1?*  
+
+No rewards. No follow-up. Just a silent signal that “yes, I trust.”
+
+---
+
+## ✅ Fixed Rules (Public & Binding)
+- I will keep **exactly $100.00 USD**. Not $100.01.
+- Any amount **over $100** (e.g., due to payment timing) will be **100% donated** to a verified nonprofit.  
+  → I’ve previously donated via Microsoft Rewards (screenshots available).
+- My **PayPal balance is screenshot every 72 hours** and published on the [live page](https://f1683yuge-cyber.github.io/social-experiment/).
+- The donation link will be **removed immediately** upon reaching $100.
+
+---
+
+## 🔍 Transparency & Proof
+- **GitHub Repo**: https://github.com/f1683yuge-cyber/social-experiment  
+- **Live Page**: https://f1683yuge-cyber.github.io/social-experiment/  
+- **Evidence includes**:  
+  - Redacted Swagbucks ban email  
+  - Past Microsoft charity donation records  
+  - Regular PayPal balance screenshots (updated every 3 days)
+
+> 💡 All donation records will also be documented in this repository’s commit history.
+
+---
+
+## 🪞 A Personal Note
+I am **not asking for help**.  
+I am offering a mirror:
+
+> *“A nameless person from China promises to take only $100 — do you trust them?”*
+
+If this page reached you, thank you for witnessing — and possibly participating in — this experiment.
 
 — f1683yuge-cyber
 
+---
 
-License
--------
+## 📜 License
 Dedicated to the public domain. Share freely.

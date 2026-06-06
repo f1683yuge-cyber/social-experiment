@@ -1,9 +1,12 @@
 # The $100 Trust Experiment  
-*A social experiment: Can strangers collectively fund a $100 micro-goal with $1 each — without promotion?*
+*A social experiment: Can 100 strangers each send $1 — without promotion — to test cross-border trust?*
 
 **Author**: f1683yuge-cyber (a developer from China)  
 **Goal**: To collect exactly **$100.00 USD** — no more, no less.  
 **Status**: Active (as of June 2024)
+
+> 🔗 **Live Page**: https://f1683yuge-cyber.github.io/social-experiment/  
+> 💝 **Donate via Ko-fi**: https://ko-fi.com/yuge344487
 
 ---
 
@@ -12,44 +15,49 @@ As an ordinary Chinese citizen, I face real barriers to using U.S. dollars:
 
 - **Strict foreign exchange controls**: Individuals cannot freely hold or spend USD.
 - **Global digital services** (apps, tools, APIs) often **only accept USD**.
-- I once spent **months earning $5 via Swagbucks surveys**, only to be **permanently banned before cashout** (email proof available).
+- I once spent **months completing Swagbucks surveys** to earn just a few dollars — only to have my account **permanently banned right before cashout** (email proof available).
 
-So this isn’t about money. It’s a **symbolic test**:
+So this isn’t about money. It’s a **symbolic test of micro-trust**:
 
-> **Can 100 strangers each send $1 — not out of pity, but as a vote for trust?**
+> **Can 100 strangers each send $1 — not out of pity, but as a silent vote for honesty?**
 
 The $1 amount is intentional: small enough to be painless, meaningful enough to count.
 
 ---
 
 ## 🧪 Purpose
-This is **not a fundraiser**. It’s a quiet social experiment in **micro-trust**.
+This is **not a fundraiser**. It’s a quiet social experiment in **digital integrity**.
 
 I ask only:  
-> *If you believe that honesty can exist between strangers online… would you contribute $1?*  
+> *If you believe that trust can exist between strangers online… would you contribute $1?*  
 
-No rewards. No follow-up. Just a silent signal that “yes, I trust.”
+No rewards. No follow-up. Just a signal that “yes, I trust.”
 
 ---
 
 ## ✅ Fixed Rules (Public & Binding)
 - I will keep **exactly $100.00 USD**. Not $100.01.
-- Any amount **over $100** (e.g., due to payment timing) will be **100% donated** to a verified nonprofit.  
+- Any amount **over $100** will be **100% donated** to a verified nonprofit.  
   → I’ve previously donated via Microsoft Rewards (screenshots available).
-- My **PayPal balance is screenshot every 72 hours** and published on the [live page](https://f1683yuge-cyber.github.io/social-experiment/).
+- My **donation balance is screenshot every 72 hours** and published on the [live page](https://f1683yuge-cyber.github.io/social-experiment/).
 - The donation link will be **removed immediately** upon reaching $100.
+- All incoming donations are tracked toward the same $100 goal, whether via Ko-fi or PayPal.
 
 ---
 
 ## 🔍 Transparency & Proof
-- **GitHub Repo**: https://github.com/f1683yuge-cyber/social-experiment  
-- **Live Page**: https://f1683yuge-cyber.github.io/social-experiment/  
+- **GitHub Repository**: https://github.com/f1683yuge-cyber/social-experiment  
+- **Live Experiment Page**: https://f1683yuge-cyber.github.io/social-experiment/  
+- **Donation Methods**:  
+  - Primary: [Ko-fi](https://ko-fi.com/yuge344487) (preferred, supports $1 donations)  
+  - Backup: PayPal (available upon request)  
 - **Evidence includes**:  
   - Redacted Swagbucks ban email  
   - Past Microsoft charity donation records  
-  - Regular PayPal balance screenshots (updated every 3 days)
+  - Regular Ko-fi / PayPal balance screenshots (updated every 3 days)  
+  - **All donation milestones documented in this repo’s commit history**
 
-> 💡 All donation records will also be documented in this repository’s commit history.
+> 💡 You can verify progress by checking the live page or recent commits.
 
 ---
 

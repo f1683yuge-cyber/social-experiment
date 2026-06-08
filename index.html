@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>一次信任实验：每人捐 $1，我们能凑够 $100 吗？ | Can We Trust Each Other? Let’s Try a $1 Donation</title>
+  <title>The $100 Trust Experiment: Can Strangers Help Me Access Global Digital Services?</title>
   <style>
     :root {
       --text-color: #333;
@@ -11,6 +11,7 @@
       --link-color: #0066cc;
       --border-color: #eee;
       --donate-btn-bg: #00bfa5;
+      --image-border: #ddd;
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -20,7 +21,7 @@
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
-      font-size: 16px; /* 移动端基础字体 */
+      font-size: 16px;
     }
     h1, h2 {
       text-align: center;
@@ -89,7 +90,6 @@
       border-radius: 6px;
       font-weight: bold;
       text-align: center;
-      /* 移动端适配 */
       width: 80%;
       max-width: 300px;
       margin: 20px auto;
@@ -100,12 +100,28 @@
       text-decoration: none;
     }
 
+    /* 图片样式 */
+    .evidence-img {
+      max-width: 100%;
+      border: 1px solid var(--image-border);
+      border-radius: 4px;
+      margin: 12px 0;
+    }
+    
+    .caption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+      font-style: italic;
+    }
+
     @media (prefers-color-scheme: dark) {
       :root {
         --text-color: #ddd;
         --bg-color: #121212;
         --link-color: #66b2ff;
         --border-color: #333;
+        --image-border: #444;
       }
       .note {
         background: #1e1e1e;
@@ -125,7 +141,7 @@
 </div>
 
 <!-- 中文版 -->
-<div id="zh-content">
+<div id="zh-content" style="display:none;">
   <h1>一次信任实验：每人捐 $1，我们能凑够 $100 吗？</h1>
 
   <div class="section">
@@ -151,7 +167,22 @@
       <li>我曾通过 Swagbucks 完成有奖调查，辛苦积攒数月美元，却在提现前被永久封号（有邮件为证）。</li>
     </ul>
     <p>因此，这 $100 不是乞讨，而是一次<strong>对网络善意的最小测试</strong>。</p>
-    <p class="note">我是 GitHub 上的一名开发者，正在测试“陌生人之间的微小信任”是否成立。所有捐赠记录将公开在 README 中（未来可通过 GitHub 提交记录查看）。</p>
+    <p class="note">我是 GitHub 上的一名开发者，正在测试"陌生人之间的微小信任"是否成立。所有捐赠记录将公开在 README 中（未来可通过 GitHub 提交记录查看）。</p>
+  </div>
+
+  <div class="section">
+    <h2>证据展示</h2>
+    <p><strong>1. Swagbucks 账户被封证明：</strong></p>
+    <img src="swagbucks-banned.jpg" alt="Swagbucks账户被封证明" class="evidence-img">
+    <p class="caption">账户因"可疑活动"被永久封禁，尽管我只是完成了正常的调查任务</p>
+    
+    <p><strong>2. 微软积分捐赠记录：</strong></p>
+    <img src="donation.jpg" alt="微软积分捐赠记录" class="evidence-img">
+    <p class="caption">之前通过微软奖励计划向慈善机构捐赠的记录</p>
+    
+    <p><strong>3. 当前账号流水（Ko-fi）：</strong></p>
+    <img src="recentpay.jpg" alt="账号流水记录" class="evidence-img">
+    <p class="caption">目前尚未收到任何捐款（实验刚开始）</p>
   </div>
 
   <div class="section">
@@ -170,7 +201,7 @@
 
   <div class="note">
     <strong>这不是募捐，不是求助，而是一面镜子：</strong><br>
-    “一个素未谋面的中国人，承诺只拿 $100 —— 你愿意相信吗？”
+    "一个素未谋面的中国人，承诺只拿 $100 —— 你愿意相信吗？"
   </div>
 
   <footer>
@@ -179,13 +210,13 @@
   </footer>
 </div>
 
-<!-- 英文版（默认隐藏） -->
-<div id="en-content" style="display:none;">
-  <h1>Can We Trust Each Other? Let’s Try a $1 Donation</h1>
+<!-- 英文版（默认显示） -->
+<div id="en-content">
+  <h1>The $100 Trust Experiment: Can Strangers Help Me Access Global Digital Services?</h1>
 
   <div class="section">
-    <p>This is a quiet social experiment: without promotion, will strangers voluntarily support my tiny goal of <strong>$100 USD</strong>?</p>
-    <p>I will keep <strong>exactly $100.00</strong>. Any amount beyond that will be <strong>100% donated</strong> to charity, with proof published.</p>
+    <p>This is a social experiment in digital trust: <strong>Can strangers from around the world help me access basic global digital services that require USD?</strong></p>
+    <p>I'm raising exactly <strong>$100.00 USD</strong>. Any amount beyond this will be <strong>100% donated to charity</strong>, with public proof provided.</p>
     
     <!-- Progress Bar -->
     <div class="progress-container">
@@ -198,34 +229,49 @@
   </div>
 
   <div class="section">
-    <h2>Why $100?</h2>
-    <p>As an ordinary Chinese citizen, I face real barriers:</p>
+    <h2>Why $100? The Story Behind This Experiment</h2>
+    <p>As a developer from China, I face real barriers in today's interconnected digital world:</p>
     <ul>
-      <li>China enforces strict foreign exchange controls — ordinary people cannot freely hold or use USD.</li>
-      <li>Many international services (apps, tools) only accept USD payments.</li>
-      <li>I once spent months earning dollars via Swagbucks surveys, only to have my account permanently banned right before cashout (email proof available).</li>
+      <li><strong>Foreign exchange restrictions:</strong> Chinese citizens cannot freely hold or use USD due to strict government controls.</li>
+      <li><strong>Digital exclusion:</strong> Many essential global services (developer tools, educational platforms, productivity apps) only accept USD payments.</li>
+      <li><strong>Broken trust:</strong> I spent months completing surveys on Swagbucks to earn just $5, only to have my account permanently banned right before cashout (see evidence below).</li>
     </ul>
-    <p>Thus, this $100 is not begging — it’s a <strong>minimal test of online goodwill</strong>.</p>
-    <p class="note">I'm a developer on GitHub, testing whether "micro-trust between strangers" can exist online. All donation records will be publicly documented in the README (verifiable via GitHub commit history).</p>
+    <p>This $100 isn't about money—it's about <strong>testing whether genuine human connection can transcend borders and systems</strong>.</p>
+    <p class="note">I'm a GitHub developer testing if "micro-trust between strangers" can exist in our increasingly fragmented digital world. All donations will be publicly documented via GitHub commit history.</p>
   </div>
 
   <div class="section">
-    <h2>Rules & Transparency</h2>
+    <h2>Transparency & Evidence</h2>
+    <p><strong>1. Swagbucks Account Termination:</strong></p>
+    <img src="swagbucks-banned.jpg" alt="Swagbucks account permanently banned email" class="evidence-img">
+    <p class="caption">My account was permanently banned for "suspicious activity" despite only completing legitimate survey tasks</p>
+    
+    <p><strong>2. Previous Charity Donation:</strong></p>
+    <img src="donation.jpg" alt="Microsoft Rewards donation to Save the Children" class="evidence-img">
+    <p class="caption">Proof of my previous charitable giving through Microsoft Rewards program</p>
+    
+    <p><strong>3. Current Payment Status:</strong></p>
+    <img src="recentpay.jpg" alt="Ko-fi recent payments (empty)" class="evidence-img">
+    <p class="caption">No donations received yet (experiment just launched)</p>
+  </div>
+
+  <div class="section">
+    <h2>My Commitment to You</h2>
     <ul>
-      <li>✅ Goal: strictly <strong>$100.00 USD</strong>.</li>
-      <li>✅ Excess funds will be fully donated (I previously donated Microsoft Rewards points to charity; screenshots available).</li>
-      <li>✅ Donations are now live via <strong>Ko-fi</strong> (link below).</li>
-      <li>✅ Balance screenshots will be updated here <strong>every 72 hours</strong>.</li>
-      <li>✅ The donation link will be removed immediately upon reaching $100.</li>
+      <li>✅ <strong>Strict $100 limit:</strong> I will keep exactly $100.00 USD—no more, no less.</li>
+      <li>✅ <strong>100% transparency:</strong> All Ko-fi/PayPal transactions will be screenshot and updated every 72 hours.</li>
+      <li>✅ <strong>Charity guarantee:</strong> Any excess funds will be donated to verified charities with public proof.</li>
+      <li>✅ <strong>Immediate closure:</strong> The donation link will be removed the moment we reach $100.</li>
+      <li>✅ <strong>Global accessibility:</strong> Your $1 helps me access the same digital tools you take for granted.</li>
     </ul>
     
     <!-- Ko-fi Donate Button -->
-    <a href="https://ko-fi.com/yuge344487" target="_blank" class="donate-btn">❤️ Donate $1 to Support This Trust Experiment</a>
+    <a href="https://ko-fi.com/yuge344487" target="_blank" class="donate-btn">❤️ Donate $1 to Bridge the Digital Divide</a>
   </div>
 
   <div class="note">
-    <strong>This is not a fundraiser — it’s a mirror:</strong><br>
-    “A nameless person from China promises to take only $100 — do you trust them?”
+    <strong>This isn't fundraising—it's a test of human connection:</strong><br>
+    "A stranger from across the world needs just $1 to participate in the global digital economy. Will you help?"
   </div>
 
   <footer>
@@ -240,8 +286,9 @@
     document.getElementById('en-content').style.display = lang === 'en' ? 'block' : 'none';
     localStorage.setItem('preferred-lang', lang);
   }
-  // 默认语言：根据浏览器或上次选择
-  const savedLang = localStorage.getItem('preferred-lang') || (navigator.language.startsWith('zh') ? 'zh' : 'en');
+  
+  // Force default to English
+  const savedLang = localStorage.getItem('preferred-lang') || 'en';
   showLang(savedLang);
 </script>
 
